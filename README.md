@@ -4,7 +4,17 @@ In steganography, two actors conspire with each other to transmit a message over
 
 We focus on the setting where the sender and receiver of the secret message are large language models: Can they exploit external entropy to encode the message? Can they use their own parameters as a source of entropy?
 
-## Paper
+## Results
+The manuscript can be viewed in `paper/Steganography.pdf`. If you would like to cite it in its current form you can use
+
+```bibtex
+@article{finke2025decomposing,
+  title={Decomposing LLM Steganography},
+  author={Finke, Lennart and Rando, Javier and Paleka, Daniel and Tram{\`e}r, Florian},
+  year={2025},
+  url={https://github.com/lennart-finke/stego}
+}
+```
 
 
 
