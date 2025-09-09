@@ -1,0 +1,7 @@
+logs/*
+__pycache__/*
+.env
+.DS_Store
+*.png
+*.tex
+.ruff_cache/*
