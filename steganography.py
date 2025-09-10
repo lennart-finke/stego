@@ -311,7 +311,7 @@ def steganography(
 # Minimal Usage:
 # inspect eval steganography.py --model anthropic/claude-3-5-haiku-latest --limit 1
 # With all Parameters:
-# inspect eval steganography.py --model anthropic/claude-3-5-haiku-latest --limit 1 -T "decoder_model=anthropic/claude-3-5-haiku-latest, cot=False" --log-format json --log-dir logs/claude-3.5-haiku-latest_gpt-4o-mini
+# inspect eval steganography.py --model anthropic/claude-3-5-haiku-latest --limit 1 -T "decoder_models=[anthropic/claude-3-5-haiku-latest]" --log-format json --log-dir logs/claude-3.5-haiku-latest_gpt-4o-mini
 # Models:
 # google/gemini-2.0-flash-thinking-exp
 # google/gemini-2.5-exp-
