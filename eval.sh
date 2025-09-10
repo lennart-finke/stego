@@ -54,7 +54,7 @@ create_tmux_command() {
 EOF
   
   # Create the command string
-  echo "inspect eval steganography.py --model $test_model --limit 10 --task-config \"$config_file\" --max-connections 20 --log-format json --log-dir \"$log_dir\" --temperature 0.1 --reasoning-tokens 2024 --max-tokens 8192"
+  echo "inspect eval steganography.py --model $test_model --limit 10 --task-config \"$config_file\" --max-connections 20 --log-format json --log-dir \"$log_dir\" --temperature 0.1 --max-tokens 8192"
 }
 
 # Create a new tmux session
